@@ -1,0 +1,6 @@
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.Home.resources
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.InputScreen.resources
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.Player.resources
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.ScoreControl.resources
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.vcxproj.GenerateResource.cache
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.exe

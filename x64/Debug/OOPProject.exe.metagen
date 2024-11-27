@@ -1,0 +1,98 @@
+  OOPProject.Home.resources - Embedded, ContainedInManifestFile, 
+  OOPProject.InputScreen.resources - Embedded, ContainedInManifestFile, 
+  OOPProject.Player.resources - Embedded, ContainedInManifestFile, 
+  OOPProject.ScoreControl.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OOPProject, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OOPProject.Player: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    btn_out_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_pl_name_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    btn_one_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btn_two_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btn_three_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btn_four_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btn_six_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btn_dot_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_pl_diss_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_runs_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_balls_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_ones_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_twos_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_threes_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_fours_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    txtbox_sixes_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+Class OOPProject.player: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String plname : Public
+    System.String diss_by : Public
+    UInt64 runs : Public
+    UInt64 balls : Public
+    UInt64 dots : Public
+    Single strike_rate : Public
+    UInt64 ones : Public
+    UInt64 twos : Public
+    UInt64 threes : Public
+    UInt64 fours : Public
+    UInt64 sixes : Public
+    Boolean out : Public
+    OOPProject.Player pl_form_inn1 : Public
+    OOPProject.Player pl_form_inn2 : Public
+    OOPProject.player current_pl : Public, Static
+  Methods:
+    PlayerScore(): PrivateScope, Public, Static, HideBySig
+Class OOPProject.Team: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String tname : Public
+    System.Collections.Generic.List`1[OOPProject.player] plxi_inn1 : Public
+    System.Collections.Generic.List`1[OOPProject.player] plxi_inn2 : Public
+    System.String temp_tname1 : Public, Static
+    System.String temp_tname2 : Public, Static
+Class OOPProject.match: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean test_match : Public, Static
+    System.String venue : Public, Static
+    System.ValueType match_date DateTime IsBoxed : Public, Static
+  Methods:
+    Save_Score(Team, Team): PrivateScope, Public, Static, HideBySig
+Class MdiOps: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form active_form : Public, Static
+    System.Windows.Forms.Button btn_current_inn : Public, Static
+    System.Windows.Forms.Button btn_current_pl : Public, Static
+  Methods:
+    openchildform(Form, Form, Panel, Panel, Object): PrivateScope, Public, Static, HideBySig
+    btnActive_Inn(Panel, Object): PrivateScope, Public, Static, HideBySig
+    btnActive_Player(Panel, Object): PrivateScope, Public, Static, HideBySig
+    btnInactive(Panel): PrivateScope, Public, Static, HideBySig
+Class OOPProject.ScoreControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    OOPProject.Team team1 : Public
+    OOPProject.Team team2 : Public
+Class OOPProject.InputScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPProject.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

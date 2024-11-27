@@ -1,0 +1,10 @@
+﻿  Cricket.cpp
+  Home.cpp
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\Home.cpp(6,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  InputScreen.cpp
+  MdiOps.cpp
+  Player.cpp
+  ScoreControl.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+  OOPProject.vcxproj -> C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\Debug\OOPProject.exe

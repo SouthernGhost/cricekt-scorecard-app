@@ -1,0 +1,11 @@
+﻿  Cricket.cpp
+  Home.cpp
+C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\Home.cpp(6,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  InputScreen.cpp
+  MdiOps.cpp
+  Player.cpp
+  ScoreControl.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  Cricket.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OOPProject.vcxproj -> C:\Users\Ghost\Desktop\Semester 3\OOP & DS\OOP Project\OOPProject\x64\Release\OOPProject.exe
